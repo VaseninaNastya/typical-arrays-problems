@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let array =[-26,27,21,2,15,-34,-17,38,-21,-24,-2,9,-23,20,37,-31,-1,17,31,1]
+        let newFunc =function(arr){return arr.reduce(function(previousValue, currentValue, index, array) {
+  return previousValue + currentValue;
+})/arr.length
+        }
+ 
+console.log(newFunc(array));
+    </script>
+</body>
+</html>
